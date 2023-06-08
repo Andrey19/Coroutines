@@ -1,4 +1,7 @@
-package ru.netology.coroutines.dto
+package dto
+
+import dto.Comment
+import dto.Post
 
 data class PostWithComments(
     val post: Post,
